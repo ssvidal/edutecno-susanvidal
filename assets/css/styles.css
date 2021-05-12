@@ -1,0 +1,40 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    width: 30px;
+}
+nav{
+    position: absolute !important;
+    z-index: 10;
+    left: 0;
+    right: 0;
+}
+header{
+    position: relative;
+}
+
+.descripcion{
+    padding: 50px;
+    background-color: black;
+    color: white;
+}
+
+.linea-descripcion{
+    background-color: #43a4b8;
+    height: 3px !important;
+    
+}
+
+.contenedor-icono{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: #43a4b8;
+
+}
+i{
+    font-size: 25px !important;
+}
