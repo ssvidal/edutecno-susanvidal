@@ -6,10 +6,11 @@ html{
     width: 30px;
 }
 nav{
-    position: absolute !important;
+    position: fixed !important;
     z-index: 10;
     left: 0;
     right: 0;
+    background-color: #43a4b8;
 }
 header{
     position: relative;
@@ -51,4 +52,8 @@ i{
 .parrafo-card{
     color:white;
     font-size: 14px;
+}
+.formulario{
+    background-color: black;
+    color: white;
 }
